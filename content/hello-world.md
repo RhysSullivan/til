@@ -1,19 +1,10 @@
-# Title
+The `navigator.sendBeacon()` method is intended to be used for sending analytics data to a server.
 
-## Subtitle
+```ts
+navigator.sendBeacon("/log", analyticsData);
+```
 
-### Sub sub title
+- It sends the HTTP POST request asynchronously, with no access to the server response.
+- The request is non-blocking, causing no delay to unload or the next navigation.
 
-**bold**
-
-*italitcs*
-
-***bold***
-
-*underline*
-
-- list
-- a
-- b
-
-> this is great
+See **documentation** on usage.
