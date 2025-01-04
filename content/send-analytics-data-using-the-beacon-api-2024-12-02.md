@@ -1,3 +1,6 @@
+---
+title: Send Analytics Data Using The Beacon Api
+---
 The `navigator.sendBeacon()` method is intended to be used for sending analytics data to a server.
 
 ```ts
